@@ -13,6 +13,16 @@ composer install
 
 This section covers how to start the development server and build your project for production.
 
+### Configuration
+
+Update your **.env** file with your database credentials (you can use **.env.example** as a template).
+
+Run the following command to create the database structure:
+
+```bash
+php artisan migrate
+```
+
 ### Database seeding:
 
 Run the following command to populate the database with Pokémon data:
